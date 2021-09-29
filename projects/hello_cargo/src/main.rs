@@ -23,7 +23,7 @@ ser ampliado.
 A sintáxe :: na ::new indica que new é uma função associda
 ao tipo String. Algumas linguagens chamam isso de método estático.
 
-Esta newfunção cria uma nova string vazia.
+Esta new função cria uma nova string vazia.
 
 Você encontrará uma newfunção em muitos tipos,
 porque é um nome comum para uma função que cria
