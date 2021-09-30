@@ -1,0 +1,15 @@
+version: 2
+updates:
+- package-ecosystem: "npm"
+  directory: "/"
+  schedule:
+    interval: "daily"
+  labels:
+    - "npm"
+    - "dependencies"
+  commit-message:
+    prefix: "chore: skip [ci]"
+  rebase-strategy: auto
+  auto-merge: false
+  reviewers:
+  - "lpmatos"
