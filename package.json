@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "13.2.0",
-    "@commitlint/config-conventional": "13.2.0",
+    "@commitlint/config-conventional": "14.1.0",
     "commitizen": "4.2.4",
     "mega-linter-runner": "5.0.7"
   }
