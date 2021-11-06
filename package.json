@@ -5,9 +5,7 @@
     "lint": "mega-linter-runner -p . --fix",
     "lint-ci": "lab ci lint",
     "slscan": "docker run --rm -e WORKSPACE=$(pwd) -e ENABLE_OSS_RISK=false -v $(pwd):/app shiftleft/scan scan --build",
-    "secrets": "gitleaks --verbose -c .gitleaks.toml -p .",
-    "release": "npx semantic-release --no-ci",
-    "release-debug": "npx semantic-release --dry-run --no-ci --debug"
+    "secrets": "gitleaks --verbose -c .gitleaks.toml -p ."
   },
   "commitlint": {
     "extends": [
@@ -22,14 +20,7 @@
   "devDependencies": {
     "@commitlint/cli": "13.2.0",
     "@commitlint/config-conventional": "13.2.0",
-    "@semantic-release/changelog": "5.0.1",
-    "@semantic-release/commit-analyzer": "8.0.1",
-    "@semantic-release/exec": "5.0.0",
-    "@semantic-release/git": "9.0.1",
-    "@semantic-release/gitlab": "6.2.2",
-    "@semantic-release/release-notes-generator": "9.0.3",
     "commitizen": "4.2.4",
-    "mega-linter-runner": "4.46.0",
-    "semantic-release": "17.4.7"
+    "mega-linter-runner": "4.46.0"
   }
 }
