@@ -7,7 +7,7 @@ fn main() {
     let y: u32 = 21;
     println!("{}", y);
 
-    // i8, u8, i16, u16, i32, u32, i64, u64 -> bits in memory
+    // i8, u8, i16, u16, i32, u32, i64, u64 -> bytes in memory
     // isuze, usize -> depends your arch
     // f32, f64
     let a = 1 + 2;
