@@ -34,7 +34,6 @@ fn main() {
     welcome();
 
     let numero_secreto = rand::thread_rng().gen_range(1..101);
-    println!("O número secreto gerado foi: {}\n", numero_secreto);
 
     let mut numero = String::new();
 
